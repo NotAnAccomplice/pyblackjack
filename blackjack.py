@@ -1,4 +1,5 @@
 import random
+import time
 
 # Define variables
 current_player_hand = []
@@ -57,9 +58,18 @@ def game_start_prints(player_hand, dealer_hand):
     """Prints statements for the user to read at the start of the game."""
     print("==========")
     print("Welcome to blackjack!")
+    time.sleep(1)
+    print("")
     print("Cards have been dealt.")
+    time.sleep(1)
+    print("")
     print("player's hand is: ", player_hand)
+    time.sleep(1)
     print("dealer's visible hand is: ", dealer_hand[0])
+    print("")
+    time.sleep(1)
+    print("Player's Turn!")
+    time.sleep(1)
 
 def game_end_prints(game_state_table, game_state, player_hand, dealer_hand):
     """Prints statements for the user to read at the end of the game."""
