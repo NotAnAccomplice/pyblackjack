@@ -1,0 +1,12 @@
+# Requirements
+[X] dealer given two cards
+[X] player given two cards
+[X] player only shown one of the dealer's two cards at first
+[X] player has two options once the game start is finished: hit and stand
+[X] on hit, player will receive one card
+[X] on stand, game proceeds to dealer's turn
+[X] dealer will hit if the sum of their cards is less than or equal to 16; otherwise, they will stand.
+[X] if the player's hand ever sums up to greater than or equal to 21, the game ends. If the player's hand's sum is exactly 21, they win. If it's over 21, they lose.
+[] if the player's and dealer's hands are less than 21, then the winner is whoever has the higher hand.
+
+# Todo
